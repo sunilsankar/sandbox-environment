@@ -4,17 +4,16 @@ Vagrant.configure(2) do |config|
   config.ssh.insert_key = false
   config.vm.synced_folder "./", "/vagrant"
   config.vm.provision "shell", path: "tasks/install.sh"
-  config.vm.define "sandbox-8" do |node|
+  config.vm.define "sandbox-9" do |node|
   
-    node.vm.box               = "almalinux/8"
+    node.vm.box               = "almalinux/9"
     node.vm.box_check_update  = false
-    node.vm.box_version = "8.5.20220316"
-    node.vm.hostname          = "sandbox-8"
+    node.vm.hostname          = "sandbox-9"
 
-    node.vm.network "private_network", ip: "172.16.100.100"
+    node.vm.network "private_network", ip: "172.16.17.100"
   
     node.vm.provider :virtualbox do |v|
-      v.name    = "sanbox-8"
+      v.name    = "sandbox-9"
       v.memory  = 4096
       v.cpus    =  2
     end
