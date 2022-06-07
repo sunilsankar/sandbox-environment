@@ -1,14 +1,12 @@
 {
-    "files.associations": {
-        "*.yml": "ansible"
-    },
-    "prettier.printWidth": 120,
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "files.trimFinalNewlines": true,
-    "editor.renderWhitespace": "selection",
-    "cSpell.enabled": true,
-    "cSpell.words": [
-        "ansible"
-    ]
+  "files.associations": {
+    "*.yml": "ansible"
+  },
+  "prettier.printWidth": 120,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.trimFinalNewlines": true,
+  "editor.renderWhitespace": "selection",
+  "cSpell.enabled": true,
+  "cSpell.words": ["ansible"]
 }
