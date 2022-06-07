@@ -17,4 +17,5 @@ echo "
  - Memory used.........: $MEMORY1 / $MEMORY2
  - Swap in use.........: `free -m | tail -n 1 | awk '{print $3}'` MB
 ===========================================================================
+Sandbox Env to test and create ansible roles with molecule and podman
 "
