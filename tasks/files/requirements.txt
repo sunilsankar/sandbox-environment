@@ -11,3 +11,5 @@ pytest-testinfra
 flake8
 pylint
 yamllint
+pyOpenSSL
+
